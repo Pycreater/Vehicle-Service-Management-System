@@ -1,4 +1,4 @@
-Vehicle Service Management System
+#Vehicle Service Management System
 This is a vehicle service management system developed using Spring Boot, JavaScript, and HTML/CSS. It is designed to streamline the management of vehicle servicing tasks within an organization.
 
 Features
@@ -16,7 +16,7 @@ HTML/CSS: Frontend markup and styling for the user interface.
 MySQL: Database management system for storing vehicle and service data.
 Thymeleaf: Server-side Java template engine for rendering HTML views.
 Installation
-Clone the repository: git clone https://github.com/your/repository.git
+Clone the repository: git clone https://github.com/Pycreater/Vehicle-Service-Management-System
 Navigate to the project directory: cd Vehicle-Service-Management-System
 Install dependencies: mvn install
 Configure the database connection in application.properties.
