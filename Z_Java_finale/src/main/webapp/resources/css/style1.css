@@ -1,0 +1,90 @@
+
+
+/*   -----------------------------------Index page--------------------------------------- */
+
+.send-request {
+    height: 300px;
+    width: 100%;
+    background-image: url('/Z_Java_finale/images/pexels-cottonbro-studio-4489721.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.send-request button {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 15px 30px; /* Padding around the text */
+    font-size: 16px; /* Font size of the text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.send-request button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+/* lsit mechanism */
+
+
+.list {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list2 {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.list h3, .list2 p {
+    color: #333;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.list li:hover {
+    
+    color: #007bff;
+}
+
+
+/*--------------------footer-----------------------------*/
+
+.footer {
+    background-color: #343a40; /* Dark color for the footer background */
+    padding: 20px 0;
+    color: #fff; /* White text color */
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+
+
+
