@@ -1,6 +1,6 @@
                         Vehicle Service Management System
 
-This Vehicle Service Management System is developed using Spring Boot, MySQL, JavaScript, HTML, and CSS. It aims to provide a comprehensive solution for managing vehicle services efficiently.
+This Vehicle Service Management System is developed using Spring MVC, MySQL, JavaScript, HTML, and CSS. It aims to provide a comprehensive solution for managing vehicle services efficiently.
 
 Features
 User Management: Admin can manage users with different roles (e.g., mechanic, manager, customer).
