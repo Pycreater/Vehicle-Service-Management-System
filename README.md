@@ -1,42 +1,57 @@
-                        Vehicle Service Management System
+# Vehicle Service Management System
 
 This Vehicle Service Management System is developed using Spring MVC, MySQL, JavaScript, HTML, and CSS. It aims to provide a comprehensive solution for managing vehicle services efficiently.
 
-Features
-User Management: Admin can manage users with different roles (e.g., mechanic, manager, customer).
-Vehicle Management: Allows adding, updating, and deleting vehicles from the system.
-Service Management: Enables scheduling, tracking, and managing vehicle services.
-Invoice Generation: Automatically generates invoices for completed services.
-Reporting: Provides various reports for analytics and monitoring purposes.
+## Features
 
+- **User Management:** Admin can manage users with different roles (e.g., mechanic, manager, customer).
+- **Vehicle Management:** Allows adding, updating, and deleting vehicles from the system.
+- **Service Management:** Enables scheduling, tracking, and managing vehicle services.
+- **Invoice Generation:** Automatically generates invoices for completed services.
+- **Reporting:** Provides various reports for analytics and monitoring purposes.
 
-Getting Started
+## Getting Started
 
-Clone the repository:
-https://github.com/Pycreater/Vehicle-Service-Management-System/tree/main
+### Clone the repository:
 
-Navigate to the project directory:
+```bash
+git clone https://github.com/Pycreater/Vehicle-Service-Management-System.git
+```
+
+### Navigate to the project directory:
+
+```bash
 cd Vehicle-Service-Management-System
+```
 
-Setup Database:
-Configure your database settings in application.properties.
-Run the database migration scripts if required.
+### Setup Database:
 
-Run the Application:
+- Configure your database settings in \`application.properties\`.
+- Run the database migration scripts if required.
+
+### Run the Application:
+
+```bash
 mvn spring-boot:run
+```
 
-Access the Application:
-Open a web browser and go to http://localhost:8080.
+### Access the Application:
 
-Configuration
-Database Configuration: Update application.properties with your database configurations.
-Role Configuration: Define roles and their permissions in the system.
+Open a web browser and go to [http://localhost:8080](http://localhost:8080).
 
-Contributing
+## Configuration
+
+- **Database Configuration:** Update \`application.properties\` with your database configurations.
+- **Role Configuration:** Define roles and their permissions in the system.
+
+## Contributing
+
 Contributions are welcome! Please feel free to open issues or submit pull requests.
 
-License
-This project is licensed under the MIT License.
+## License
 
-Acknowledgments
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+## Acknowledgments
+
 Special thanks to the Spring Boot, JavaScript, HTML, and CSS communities for providing excellent tools and resources.
